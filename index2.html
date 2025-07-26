@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Tour Carousel - Team 3</title>
+    <!-- Font Awesome for navigation icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our School Tour!</h1>
+        <p>Explore the vibrant spaces and facilities of our school.</p>
+    </header>
+
+    <div class="carousel-container">
+        <!-- Carousel Slides - Each slide contains an image and a caption -->
+        <div class="carousel-slide">
+        <img src="./Images/Grand School Hall.png" alt="A grand school hall with high ceilings, chandeliers, and rows of wooden desks facing a stage with a red curtain.">
+        <div class="image-caption">
+        <h2>The Grand School Hall</h2>
+        <p>Our spacious hall, perfect for assemblies, events, and performances. It's a place where memories are made.</p>
+        </div>
+    </div>
+        <div class="carousel-slide">
+            <img src="./Images/Canteen.png" alt="School Canteen">
+            <div class="image-caption">
+                <h2>The Lively Canteen</h2>
+                <p>A bustling hub where students enjoy delicious and nutritious meals. A great place to socialize and recharge.</p>
+            </div>
+        </div>
+        <div class="carousel-slide">
+            <!-- Placeholder image for Library -->
+            <img src="./Images/Library.png" alt="School Library">
+            <div class="image-caption">
+                <h2>The Serene Library</h2>
+                <p>A quiet sanctuary filled with books, resources, and learning opportunities. Your gateway to knowledge.</p>
+            </div>
+        </div>
+        <div class="carousel-slide">
+            <!-- Placeholder image for Playground -->
+            <img src="./Images/Playground.png" alt="School Playground">
+            <div class="image-caption">
+                <h2>The Vibrant Playground</h2>
+                <p>Where students can play, exercise, and enjoy the outdoors. Fresh air and fun are always on the agenda.</p>
+            </div>
+        </div>
+        <div class="carousel-slide">
+            <!-- Placeholder image for Classroom -->
+            <img src="./Images/classroom.png" alt="Typical Classroom">
+            <div class="image-caption">
+                <h2>Our Engaging Classrooms</h2>
+                <p>Modern and conducive environments designed for interactive learning. Equipped for success.</p>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev-btn" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <button class="next-btn" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+
+        <!-- Carousel Dots (Indicators) -->
+        <div class="carousel-dots">
+            <!-- Dots will be dynamically added by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Lightbox/Modal for image zoom on click -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" aria-label="Close image">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Zoomed image">
+        <div id="lightbox-caption"></div>
+    </div>
+
+<script src="script.js">
+    
+</script>
+</body>
+</html>
