@@ -1,4 +1,5 @@
 📸 Interactive School Tour Carousel
+
 This project is a modern, fully responsive image carousel built from scratch using HTML, CSS, and vanilla JavaScript. It's designed to provide an engaging visual tour, featuring multiple navigation methods and an integrated lightbox for a detailed, zoomed-in view of the images. The design is clean, user-friendly, and adapts seamlessly to any screen size.
 
 ✨ Key Features
